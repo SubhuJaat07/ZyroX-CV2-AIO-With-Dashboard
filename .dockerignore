@@ -1,0 +1,37 @@
+.git
+.gitignore
+.github
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+
+# Dashboard — deployed as separate Railway service
+dashboard/
+LICENSE
+README.md
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+
+# Virtualenvs (if any committed by accident)
+venv/
+.venv/
+env/
+ENV/
+myenv/
+
+# Build artifacts
+dist/
+build/
+*.zip
+*.rar
+*.tar
