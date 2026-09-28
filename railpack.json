@@ -1,9 +1,14 @@
 {
-  "$schema": "https://railpack.com/schema.json",
-  "python": {
-    "requirementsPath": "bot/requirements.txt"
+  "$schema": "https://schema.railpack.com",
+  "provider": "python",
+  "steps": {
+    "install": {
+      "commands": [
+        "pip install --no-cache-dir -r bot/requirements.txt"
+      ]
+    }
   },
   "deploy": {
-    "start": "python bot/CodeX.py"
+    "startCommand": "python bot/CodeX.py"
   }
 }
