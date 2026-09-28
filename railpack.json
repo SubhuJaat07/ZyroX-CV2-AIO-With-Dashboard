@@ -1,0 +1,9 @@
+{
+  "$schema": "https://railpack.com/schema.json",
+  "python": {
+    "requirementsPath": "bot/requirements.txt"
+  },
+  "deploy": {
+    "start": "python bot/CodeX.py"
+  }
+}
